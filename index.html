@@ -1,110 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
     <title>Renada's</title>
   </head>
-  <body id="home" style="background-color:#C1E7E3;">
+  <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#C1E7E3;">
-        <div class="container mt-1 mb-1 fs-4">
-            <a class="navbar-brand fs-4" href="#">Renada</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#achieve">Achievements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skill">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Reach Me!</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container mt-1 mb-1 fs-4">
+        <a class="navbar-brand fs-4" href="#">Renada</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achieve">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Reach Me!</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- end navbar -->
 
     <!-- About -->
-    <section class="about text-center mt-3">
-        <img src="img\Renada.jpeg" alt="Renada" width="250" class="rounded-circle">
-        <h1 class="mt-4 pt-3 mb-5">Hi! Renada's Here</h1>
-        <h2 class="lead fs-4">Hi everyone! I am Salma Nora Renada also known as Renada
-            <br>A bachelor computer science student of Diponegoro University </h2>
-      </section>
+    <section class="about mt-3">
+      <div class="container">
+        <img src="img\Renada.jpeg" alt="Renada" width="250" class="rounded-circle" />
+      <h1 class="mt-4 pt-3 mb-5">Hi! Renada's Here</h1>
+      <h2 class="lead fs-4">Hi everyone! I am Salma Nora Renada also known as Renada <br />A bachelor computer science student of Diponegoro University</h2>
+      <div class="row">
+        <div class="col-3">
+          <img src="img\gmail.png" alt="" style="width: 20%;" class="float-start mt-2"/>
+        </div>
+        
+      </div>
+      
+      </div>
+    </section>
     <!-- end About -->
 
     <!-- achievement -->
-    <section id="achieve" class="achieve text-center">
+    <section id="achieve" class="achieve mt-5">
+      <div class="container">
         <h1 class="">My Achievements</h1>
         <h2 class="lead">I Will Back Soon!</h2>
-      </section>
-    <!-- end achievement -->
-    
-    <!-- Skills -->
-    <section id="skill" class="skills text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Skills</h1>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-3 mt-3">
-                    <div class="card">
-                        <img src="img\C.png" class="card-img-top" alt="Clang">
-                        <div class="card-body">
-                          <p class="card-text">1.5 Years Experience</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card">
-                        <img src="img\python.png" class="card-img-top" alt="Python">
-                        <div class="card-body">
-                          <p class="card-text">1 Year Experience</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card">
-                        <img src="img\JS.png" class="card-img-top" alt="JS">
-                        <div class="card-body">
-                          <p class="card-text">1 Year Experience</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card">
-                        <img src="img\php.png" class="card-img-top" alt="php">
-                        <div class="card-body">
-                          <p class="card-text">3 Months Experience</p>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      
     </section>
+    <!-- end achievement -->
+
+    <!-- Skills -->
+
     <!-- End Skills -->
 
     <!-- ReachMe -->
-    <div id="contact"class="reach">
-        <div class="container mx-auto">
-            <h1 class=" text-center">Reach Me!</h1>
-            <a href="nadasalma735@gmail.com"><h2 class=" text-center mt-3 pt-3">nadasalma735@gmail.com</h2></a>
-            <a href="https://www.instagram.com/norarenada/"><h2 class="text-center">@norarenada</h2></a>
-        </div>
-    </div>
     <!-- End ReachMe -->
 
     <!-- Footer -->
