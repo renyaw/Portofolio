@@ -4,28 +4,28 @@ const sc = ScrollReveal({
   reset: true,
   distance: "70px",
   duration: 2000,
-  delay: 400,
 });
 
 // About
-sc.reveal(".foto", { delay: 400 });
-sc.reveal(".hello", { delay: 500 });
-sc.reveal(".cv", { delay: 550 });
-sc.reveal(".desc", { delay: 800 });
-sc.reveal(".mail", { delay: 600 });
-sc.reveal(".git", { delay: 650 });
-sc.reveal(".ins", { delay: 700 });
-sc.reveal(".link", { delay: 750 });
-sc.reveal(".bout", { delay: 900 });
+sc.reveal(".foto", { delay: 300 });
+sc.reveal(".hello", { delay: 400 });
+sc.reveal(".cv", { delay: 450 });
+sc.reveal(".desc", { delay: 700 });
+sc.reveal(".mail", { delay: 500 });
+sc.reveal(".git", { delay: 550 });
+sc.reveal(".ins", { delay: 600 });
+sc.reveal(".link", { delay: 650 });
+sc.reveal(".bout", { delay: 800 });
 
 // Skill
-sc.reveal(".skill", { delay: 950 });
-sc.reveal(".skilld", { delay: 980 });
-sc.reveal(".html", { delay: 1050 });
-sc.reveal(".php", { delay: 1150 });
-sc.reveal(".py", { delay: 1250 });
-sc.reveal(".cl", { delay: 1350 });
+sc.reveal(".skill", { delay: 850 });
+sc.reveal(".skilld", { delay: 880 });
+sc.reveal(".html", { delay: 950 });
+sc.reveal(".php", { delay: 1050 });
+sc.reveal(".py", { delay: 1150 });
+sc.reveal(".cl", { delay: 1250 });
 
 // Project 
-sc.reveal(".project", { delay: 1450 });
-sc.reveal(".project1", { delay: 1490 });
+sc.reveal(".project", { delay: 1350 });
+sc.reveal(".project1", { delay: 1390 });
+
