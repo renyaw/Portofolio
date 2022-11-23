@@ -26,6 +26,9 @@ sc.reveal(".py", { delay: 1150 });
 sc.reveal(".cl", { delay: 1250 });
 
 // Project 
-sc.reveal(".project", { delay: 1350 });
-sc.reveal(".project1", { delay: 1390 });
+sc.reveal(".project", { delay: 1280 });
+sc.reveal(".project1", { delay: 1300 });
+sc.reveal(".project2", { delay: 1300 });
+sc.reveal(".project3", { delay: 1300 });
+sc.reveal(".project4", { delay: 1300 });
 
